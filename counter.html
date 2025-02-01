@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Increment and Decrement</title>
+  <link rel="stylesheet" href="counter.css">
+</head>
+
+<body>
+  <div class="full">
+    <div style="font-weight: bold; font-size: 20px; ">Increment And Decrement</div>
+    <div class="plu-min">
+      <button class="but" onclick="decrement()">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+
+      <div class="counter" id="counter">0</div>
+
+      <button class="but" onclick="increment()">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+
+      <button class="but" onclick="reset()">Reset </button>
+    </div>
+    <div><input type="number"  id="stepInput" placeholder="Enter step count">
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/e08f526ff5.js" crossorigin="anonymous"></script>
+  <script src="counter.js"></script>
+</body>
+
+</html>
